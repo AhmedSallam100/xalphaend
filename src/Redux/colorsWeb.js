@@ -5,7 +5,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const colorsWebApi = createApi({
   reducerPath: "colorsWebApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: `${process.env.REACT_APP_BASE_URL}/api/`,
+    baseUrl: `https://xalphaend.onrender.com/api/`,
   }),
   endpoints: (builder) => ({
     getcolorsWebByName: builder.query({
