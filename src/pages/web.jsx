@@ -123,7 +123,7 @@ const Web = () => {
               </div>
               <SectionTitle id={"coders"} title="مواقع للمبرمجين" />
               <div className="wrapper d-grid gap-20">
-                {codersWebData?.data.map((item) => {
+{/*                 {codersWebData?.data.map((item) => {
                   return (
                     <div className="wb-1 p-relative bg-white p-10 rad-10 ">
                       <img
@@ -219,9 +219,9 @@ const Web = () => {
                       <Button href={item.attributes.href} />
                     </div>
                   );
-                })}
+                })} */}
+              <WebCards />
               </div>
-              {/* <WebCards /> */}
             </div>
             <ScrollUp />
             <Footer />
