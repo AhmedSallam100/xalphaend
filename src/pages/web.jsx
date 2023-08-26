@@ -58,7 +58,6 @@ const Web = () => {
     isLoading: visualWebIsLoading,
   } = useGetvisualWebByNameQuery(visualWebQuery);
 
-  if (aiWebData) {
     return (
       <>
         <div className="page d-flex">
@@ -229,7 +228,6 @@ const Web = () => {
         </div>
       </>
     );
-  }
 };
 
 export default Web;
