@@ -32,7 +32,7 @@ const Articles = () => {
                     <div className="wb-1 bg-white rad-6 p-10">
                       <div className="box-img-article">
                         <img
-                          src={`${process.env.REACT_APP_BASE_URL}${item.attributes.imgSrc.data.attributes.url}`} // ===============
+                          src={`${item.attributes.imgSrc.data.attributes.url}`} // ===============
                           className="wb-1-img wb-3 wb-4 wb-5 wb-7 wb-8 wb-12"
                           alt="articel"
                         />
