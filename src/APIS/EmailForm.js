@@ -4,7 +4,7 @@ export const EmailForm = async ({ fullName, phone, email, msg, setSend }) => {
   try {
     const data = { fullName, phone, email, msg, setSend };
     let res = await axios.post(
-      `${process.env.REACT_APP_SERVER_URL}/send`,
+      `https://alphaend-flax.vercel.app/send`,
       data
     );
     if (res) {
