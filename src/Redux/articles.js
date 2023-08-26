@@ -5,7 +5,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const articlesApi = createApi({
   reducerPath: "articlesApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: `${process.env.REACT_APP_BASE_URL}/api/`,
+    baseUrl: `https://xalphaend.onrender.com/api/`,
   }),
   endpoints: (builder) => ({
     getarticlesByName: builder.query({
