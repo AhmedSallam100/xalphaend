@@ -36,7 +36,7 @@ const Web = () => {
                     <div className="img-box channel-box-img">
                       <img
                         className="path-img"
-                        src={`${process.env.REACT_APP_BASE_URL}${item.attributes.imgSrc.data.attributes.url}`}
+                        src={`${item.attributes.imgSrc.data.attributes.url}`}
                         alt="app"
                       />
                     </div>
