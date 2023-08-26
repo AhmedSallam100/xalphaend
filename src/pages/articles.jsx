@@ -59,7 +59,7 @@ const Articles = () => {
                         <div className="stlll">
                           <img
                             className="tx-img"
-                            src={`http://localhost:1337${item.attributes.writerImg.data.attributes.url}`} // ===============
+                            src={`${item.attributes.writerImg.data.attributes.url}`} // ===============
                             alt=""
                           />
                           <a
