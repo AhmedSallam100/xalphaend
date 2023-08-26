@@ -5,7 +5,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const aiWebApi = createApi({
   reducerPath: "aiWebApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: `${process.env.REACT_APP_BASE_URL}/api/`,
+    baseUrl: `https://xalphaend.vercel.app/api/`,
   }),
   endpoints: (builder) => ({
     getaiWebByName: builder.query({
