@@ -4,7 +4,7 @@ export const EmailForm = async ({ fullName, phone, email, msg, setSend }) => {
   try {
     const data = { fullName, phone, email, msg, setSend };
     let res = await axios.post(
-      `https://xalphaend.onrender.com/send`,
+      `https://email-alpha-nine.vercel.app/send`,
       data
     );
     if (res) {
