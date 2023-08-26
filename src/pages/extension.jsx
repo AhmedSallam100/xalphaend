@@ -34,7 +34,7 @@ const Web = () => {
                 return (
                   <div className="wb-1 p-relative bg-white p-10 rad-10 ">
                     <img
-                      src={`${process.env.REACT_APP_BASE_URL}${item.attributes.imgSrc.data.attributes.url}`}
+                      src={`${item.attributes.imgSrc.data.attributes.url}`}
                       className="blob-2 mt-5"
                       style={{ marginTop: "25px" }}
                       alt="HIo3Qee.md.png"
