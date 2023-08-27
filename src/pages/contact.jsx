@@ -89,7 +89,7 @@ const Contact = () => {
                     type="number"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
-                    placeholder="الرقم"
+                    placeholder="الرقم (اختياري)"
                   />
                   {phoneError && <InlineError error={phoneError} />}
                 </div>
