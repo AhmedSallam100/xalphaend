@@ -13,11 +13,6 @@ const Sidebar = () => {
   useEffect(() => {
     let ul = document.querySelectorAll("#ul > li");
 
-    if (localStorage.getItem("show")) {
-      let e = document.getElementById(`${localStorage.getItem("show")}`);
-      if (e !== null) e.classList.add("show");
-    }
-
     ul.forEach((ele) => {
       ele.onclick = function () {
         ul.forEach(
@@ -32,15 +27,12 @@ const Sidebar = () => {
     });
   }, []);
   return (
-    <aside className={localStorage.getItem("openSidebar") && "aside-open"}>
+    <aside>
       <div className="logo">
         <span className="menu-icon">
           <i
             className="uil uil-times close-aside"
-            onClick={function () {
-              document.querySelector("aside").classList.remove("aside-open");
-              localStorage.removeItem("openSidebar");
-            }}
+            onClick={() => document.querySelector("aside").classList.remove("aside-open")}
           ></i>
         </span>
         <a href="/">
