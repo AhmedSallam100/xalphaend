@@ -41,80 +41,86 @@ const Sidebar = () => {
       </div>
       <ul className="side-menu" id="ul">
         <li className="nav-item active">
-          <a href="/">
+          <a href="/" target="_blank">
             <i className="uil uil-estate"></i>
             <span>الصفحة الرئيسية</span>
           </a>
         </li>
         <li className="nav-item">
           <button>
-            <i className="uil uil-window"></i>
+            <a href="/web" target="_blank">
+              <i className="uil uil-window"></i>
             <span> المواقع</span>
             <i className="uil uil-angle-right"></i>
+            </a>
           </button>
           <ul className="sub-menu" id="webSub">
             <li>
-              <a href="/web#ai">مواقع الذكاء الاصطناعي</a>
+              <a href="/web#ai" target="_blank">مواقع الذكاء الاصطناعي</a>
             </li>
             <li>
-              <a href="/web#design">مواقع للمصممين</a>
+              <a href="/web#design" target="_blank">مواقع للمصممين</a>
             </li>
             <li>
-              <a href="/web#coders">مواقع للمبرمجين</a>
+              <a href="/web#coders" target="_blank">مواقع للمبرمجين</a>
             </li>
             <li>
-              <a href="/web#fonts">مواقع تحميل الخطوط</a>
+              <a href="/web#fonts" target="_blank">مواقع تحميل الخطوط</a>
             </li>
             <li>
-              <a href="/web#colors">مواقع الالوان</a>
+              <a href="/web#colors" target="_blank">مواقع الالوان</a>
             </li>
             <li>
-              <a href="/web#visual">مواقع تغذية بصرية</a>
+              <a href="/web#visual" target="_blank">مواقع تغذية بصرية</a>
             </li>
           </ul>
         </li>
         <li className="nav-item">
           <button>
-            <i className="uil uil-tachometer-fast"></i>
+            <a href="/pathes" target="_blank">
+              <i className="uil uil-tachometer-fast"></i>
             <span> المسارات التعليمية</span>
             <i className="uil uil-angle-right"></i>
+            </a>
           </button>
           <ul className="sub-menu" id="pathSub">
             <li>
-              <a href="/pathes/frontend">Front End Developer</a>
+              <a href="/pathes/frontend" target="_blank">Front End Developer</a>
             </li>
             <li>
-              <a href="/pathes/phpdeveloper">PHP Developer</a>
+              <a href="/pathes/phpdeveloper" target="_blank">PHP Developer</a>
             </li>
             <li>
-              <a href="/pathes/nodejsdeveloper">NodeJS Developer</a>
+              <a href="/pathes/nodejsdeveloper" target="_blank">NodeJS Developer</a>
             </li>
             <li>
-              <a href="/pathes/netdeveloper">.Net Developer</a>
+              <a href="/pathes/netdeveloper" target="_blank">.Net Developer</a>
             </li>
             <li>
-              <a href="/pathes/flutterdeveloper">Flutter Developer</a>
+              <a href="/pathes/flutterdeveloper" target="_blank">Flutter Developer</a>
             </li>
           </ul>
         </li>
         <li className="nav-item">
           <button>
-            <i className="uil uil-book-open"></i>
+            <a href="/books" target="_blank">
+              <i className="uil uil-book-open"></i>
             <span>الكتب</span>
             <i className="uil uil-angle-right"></i>
+            </a>
           </button>
           <ul className="sub-menu" id="pathSub">
             <li>
-              <a href="/books#book">الكتب</a>
+              <a href="/books#book" target="_blank">الكتب</a>
             </li>
             <li>
-              <a href="/books#summary">الملخصات</a>
+              <a href="/books#summary" target="_blank">الملخصات</a>
             </li>
           </ul>
         </li>
         <li className="nav-item">
           <button>
-            <a href="/articles">
+            <a href="/articles" target="_blank">
               <i className="uil uil-document-layout-right"></i>
               <span>المقالات</span>
             </a>
@@ -122,28 +128,30 @@ const Sidebar = () => {
         </li>
         <li className="nav-item">
           <button>
-            <i className="uil uil-youtube"></i>
+            <a href="/channels" target="_blank">
+              <i className="uil uil-youtube"></i>
             <span> قنوات اليوتيوب</span>
             <i className="uil uil-angle-right"></i>
+            </a>
           </button>
           <ul className="sub-menu" id="channelSub">
             <li>
-              <a href="/channels#coding">قنوات البرمجة</a>
+              <a href="/channels#coding" target="_blank">قنوات البرمجة</a>
             </li>
             <li>
-              <a href="/channels#design">قنوات التصميم</a>
+              <a href="/channels#design" target="_blank">قنوات التصميم</a>
             </li>
             <li>
-              <a href="/channels#books">قنوات الكتب</a>
+              <a href="/channels#books" target="_blank">قنوات الكتب</a>
             </li>
             <li>
-              <a href="/channels#improve">قنوات الانتاجية</a>
+              <a href="/channels#improve" target="_blank">قنوات الانتاجية</a>
             </li>
           </ul>
         </li>
         <li className="nav-item">
           <button>
-            <a href="/extension">
+            <a href="/extension" target="_blank">
               <i className="uil uil-apps"></i>
               <span>الاضافات</span>
             </a>
@@ -152,26 +160,28 @@ const Sidebar = () => {
 
         <li className="nav-item">
           <button>
+            <a href="/podcasts" target="_blank">
             <i className="uil uil-microphone"></i>
             <span>البودكاست</span>
             <i className="uil uil-angle-right"></i>
+            </a>
           </button>
           <ul className="sub-menu" id="channelSub">
             <li>
-              <a href="/podcasts#learn">بودكاست تعليمية</a>
+              <a href="/podcasts#learn" target="_blank">بودكاست تعليمية</a>
             </li>
             <li>
-              <a href="/podcasts#improve">بودكاست تنمية</a>
+              <a href="/podcasts#improve" target="_blank">بودكاست تنمية</a>
             </li>
             <li>
-              <a href="/podcasts#islam">بودكاست دينية</a>
+              <a href="/podcasts#islam" target="_blank">بودكاست دينية</a>
             </li>
           </ul>
         </li>
 
         <li className="nav-item">
           <button>
-            <a href="/apps">
+            <a href="/apps" target="_blank">
               <i className="uil uil-apps"></i>
               <span>التطبيقات</span>
             </a>
@@ -180,7 +190,7 @@ const Sidebar = () => {
 
         <li className="nav-item">
           <button style={{ color: "gold" }}>
-            <a href="/learnprogramming">
+            <a href="/learnprogramming" target="_blank">
               <i className="uil uil-brackets-curly"></i>
               <span>تعلم البرمجة</span>
             </a>
@@ -188,7 +198,7 @@ const Sidebar = () => {
         </li>
         <li className="nav-item">
           <button>
-            <a href="/contact">
+            <a href="/contact" target="_blank">
               <i className="uil uil-phone"></i>
               <span>تواصل معنا</span>
             </a>
