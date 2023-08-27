@@ -5,6 +5,7 @@ const Button = (props) => {
     <a
       href={props.href}
       rel="noreferrer"
+      target="_blank"
       className="btn-shape my-a"
       download={props.download}
     >
