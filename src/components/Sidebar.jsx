@@ -32,7 +32,9 @@ const Sidebar = () => {
         <span className="menu-icon">
           <i
             className="uil uil-times close-aside"
-            onClick={() => localStorage.removeItem("openSidebar")}
+            onClick={() =>
+              document.querySelector("aside").classList.add("aside-open")
+            }
           ></i>
         </span>
         <a href="/">
