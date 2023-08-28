@@ -8,7 +8,7 @@ const Header = () => {
         <input
           className="p-10 rad-10"
           type="search"
-          placeholder="Type A Keyword"
+          placeholder="البحث"
         />
       </div>
       <span className="menu-icon">
