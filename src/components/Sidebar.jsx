@@ -33,7 +33,7 @@ const Sidebar = () => {
           <i
             className="uil uil-times close-aside"
             onClick={() =>
-              document.querySelector("aside").classList.add("aside-open")
+              document.querySelector("aside").classList.remove("aside-open")
             }
           ></i>
         </span>
