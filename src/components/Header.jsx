@@ -8,19 +8,17 @@ const Header = () => {
         <input
           className="p-10 rad-10"
           type="search"
-          placeholder="البحث"
+          placeholder="Type A Keyword"
         />
       </div>
       <span className="menu-icon">
         <i
           className="uil uil-bars open-aside"
-          onClick={function () {
-            document.querySelector("aside").classList.add("aside-open");
-            localStorage.setItem("openSidebar", true);
-          }}
+          onClick={() =>
+            document.querySelector("aside").classList.add("aside-open")
+          }
         ></i>
       </span>
-      {/* <img className="img-p logo-web" alt="" /> */}
       <a href="/">
         <img className="img-p" src={alphaLogo} alt="" />
       </a>
