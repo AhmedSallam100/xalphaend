@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="left">
-        Made With 💜 By
+        Made With By
         <a
           href="https://web.facebook.com/xravox"
           target="_blank"
