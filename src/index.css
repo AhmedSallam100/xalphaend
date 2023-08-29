@@ -2196,7 +2196,7 @@ textarea {
   color: #fff;
   direction: rtl;
   transition: 0.3s;
-  border-radius: 6px;
+  border-radius: 12px;
   background-color: var(--main-color);
   font-family: "Alexandria", sans-serif;
 }
